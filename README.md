@@ -15,6 +15,8 @@
 * deep_q.py - This python file contains the Q-Network and the training and inference scripts.
 * Unity_Environment.app - This is a MacOS version of the Unity environment used in the inference step.
 * Demo.mp4 - This video file demonstrates an inference run of 30 episodes using the trained policy_model.
+* unity_weights.pth - This file contains the trained weights for the policy model.
+* environment_picture.png - This is an image of the Unity environment.
 
 ## Unity Environment
 
@@ -39,7 +41,7 @@ The features returned in the observation state are desscribed below:
 * the position and direction of movement of the three obstacles
 * the red target's position
 
-This Unity environment is converted to a Gym environment using a Gym Wrapper before being used to train the policy model.
+This Unity environment is converted to a Gym environment using a Gym wrapper before being used to train the policy model.
 
 ## Model and Deep Q-Learning
 
